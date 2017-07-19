@@ -20,7 +20,7 @@ def main():
     with open('test.txt','r') as src:
          line=unicode(src.readlines()[0])
          line=line.translate(letter_map)
-         print line
+         #print line
 
 if __name__ == '__main__':
    reload(sys)
