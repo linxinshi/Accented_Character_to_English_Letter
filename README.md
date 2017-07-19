@@ -1,5 +1,7 @@
 # Accented_Character_to_English_Letter
 A simple toolkit that converts accented character to English letter  
+All in utf-8 encoding  
+works fine with python2  
 # notice
 the conversion table is based on "shape" of accented characters instead of their pronunciation
 # Conversion table
