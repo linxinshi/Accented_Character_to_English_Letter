@@ -4,7 +4,7 @@ All in utf-8 encoding
 works fine with python2  
 # notice
 the conversion bases on "shape" of accented characters instead of their pronunciation
-# Conversion table
+# Conversion rule
 A<-------------Á,À,Å,Ä,Â,Ã,Ā,Ą,Ă  
 C<-------------Ç,Ć,Č,Ĉ  
 D<-------------Đ,Ď  
