@@ -1,9 +1,10 @@
 # Accented_Character_to_English_Letter
-A simple toolkit that converts accented character to English letter  
-All in utf-8 encoding  
+a simple toolkit that converts accented character to English letter  
+all in utf-8 encoding  
+currently for Latin characters   (Albanian,Bosnian,Catalan,Croatian,Czech,Danish,Dutch,Esperanto,Estonian,Faroese,Finnish,French,German,Greenlandic,Hungarian,Icelandic,Irish,Italian,Latvian,Norwegian,Polish,Portuguese,Romanian,Sami,Scottish Gaelic,Slovak,Slovene,Spanish,Swedish,Turkish)  
 works fine with python2  
 # notice
-the conversion bases on "shape" of accented characters instead of their pronunciation
+the conversion bases on "shape" of accented characters instead of their pronunciation  
 # Conversion rule
 A<-------------Á,À,Å,Ä,Â,Ã,Ā,Ą,Ă  
 C<-------------Ç,Ć,Č,Ĉ  
