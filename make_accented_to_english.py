@@ -2,7 +2,7 @@ import sys
 
 def main():
     letter_map={}
-    with open('upper_case.txt','r') as src:
+    with open('upper_case.txt','r',encoding='utf-8') as src:
          for line in src.readlines():
              item=line.strip().split(u' ')
              for letter in item[1].split(u','):
@@ -10,14 +10,14 @@ def main():
                  letter_map[ord(letter)]=ord(item[0])
 
     
-    with open('lower_case.txt','r') as src:
+    with open('lower_case.txt','r',encoding='utf-8') as src:
          for line in src.readlines():
              item=line.strip().split(u' ')
              for letter in item[1].split(u','):
                  print ord(letter)
                  letter_map[ord(letter)]=ord(item[0])
     
-    with open('test.txt','r') as src:
+    with open('test.txt','r',encoding='utf-8') as src:
          line=unicode(src.readlines()[0])
          line=line.translate(letter_map)
          #print line
